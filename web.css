@@ -1,0 +1,118 @@
+body {
+    margin: 20;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fce1d6
+  }
+  
+  h1 {
+      font-size: 35px;
+      text-align: center;
+      color: rgb(36, 96, 37);
+  }
+  h2 {
+      font-size: 30px;
+      color: rgb(30, 108, 31);
+      text-align: center;
+  }
+  h3 {
+      font-size: 20px;
+      padding: 15px;
+      color: rgb(30, 83, 31);
+      border-left: 6px solid rgb(81, 183, 67);
+      background-color: rgba(211, 211, 211, 0.788);
+  }
+  h4 {
+      font-size: 15px;
+      padding: 15px;
+      text-align: center;
+  }
+  p {
+      font-size: 18px;
+      padding: 20px;
+  }
+  mark {
+      opacity: 90%;
+    background-color: rgb(112, 169, 104);
+  }
+  div.double {
+      border-style: double;
+      color: rgb(255, 255, 255);
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  
+  /* Style of the Heading */
+  .header {
+      background-color: #81d6b4;
+    background: url(Field-Research-Study.jpg);
+    padding: 20px;
+    text-align: center;
+  }
+  /*introductions container*/
+  .container {
+      display: flex;
+      width: 100%;
+  }
+  .one {
+      background: url(1.jpg);
+  }
+  .two {
+      background: url(2.jpg);
+  }
+  .three {
+      background: url(3.jpg);
+  }
+  .four {
+      background: url(4.jpg);
+  }
+  .five {
+      background: url(5.jpg);
+  } 
+  .six {
+      background: url(6.jpg);
+  } 
+  .seven {
+      background: url(7.jpg);
+  }
+  .section {
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      cursor: pointer;
+      flex: 0.2;
+      margin: 5px;
+      position: relative;
+      transition: all 0.7s ease-out;
+  }
+  .section.active {
+      flex: 3;
+  }
+  
+  /* Link Button*/
+  a:link, a:visited {
+    background-color: #81d6b4;
+    color: rgb(217, 51, 51);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  a:hover, a:active {
+    background-color: #c8f1b8;
+  } 
+  
+  /* Style of the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
