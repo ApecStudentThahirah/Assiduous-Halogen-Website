@@ -39,7 +39,7 @@ body{
   }
   mark {
       opacity: 90%;
-    background-color: rgb(112, 169, 104);
+     background-color: rgb(155, 201, 149);
   }
   div.double {
       border-style: double;
